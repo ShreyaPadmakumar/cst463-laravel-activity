@@ -18,3 +18,4 @@ class Student extends Model
     // Columns that may be filled from a form with Student::create($request->...)
     protected $fillable = ['roll_no', 'name', 'email', 'department', 'semester', 'cgpa'];
 }
+
